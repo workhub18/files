@@ -17,7 +17,7 @@ int main( )
 	   myfile.write(reinterpret_cast<char*>(&c),sizeof(c));
    }
    else
-   cout<<"error opening abc.txt";
+   cout<<"error opening abc.bin";
    myfile.close();
    
    cout<<a<<" "<<b<<" "<<c;//display data to console (i.e. as formatted chars)
