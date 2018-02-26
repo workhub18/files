@@ -9,10 +9,10 @@ int main( )
    float b = 68.123; 
    char c = 'J';
    
-   ofstream myfile{abc.txt};
+   ofstream myfile{"abc.txt"};
    if(myfile)
    {
-	   myfile<<a<<""<<b<<""<<c;
+	   myfile<<a<<" "<<b<<" "<<c;
    }
    else
    cout<<"error opening abc.txt";
